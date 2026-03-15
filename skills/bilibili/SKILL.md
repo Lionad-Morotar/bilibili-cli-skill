@@ -1,9 +1,9 @@
 ---
-name: bilibili-cli
+name: bilibili
 description: 使用 bili CLI 工具与 Bilibili 交互，获取视频信息、下载音频、搜索内容、管理收藏和互动。当用户提到 Bilibili、视频下载、B站搜索、BV号解析、字幕提取、音频切分、一键三连等场景时触发。支持批量操作和结构化输出（YAML/JSON）。
 ---
 
-# Bilibili CLI Skill
+# Bilibili Skill
 
 通过 [bilibili-cli](https://github.com/jackwener/bilibili-cli) 工具在终端与 Bilibili 交互。
 

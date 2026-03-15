@@ -1,24 +1,24 @@
-# bilibili-cli-skill
+# bilibili-skills
 
-Claude Skill for Bilibili CLI operations — browse videos, search, download audio, and manage interactions from terminal.
+Claude Skill for Bilibili operations — browse videos, search, download audio, manage interactions, and automate workflows.
 
 ## Installation
 
 ```bash
 cd ~/.claude
-npx skills add Lionad-Morotar/bilibili-cli-skill
+npx skills add Lionad-Morotar/bilibili-skills
 ```
 
 ## Usage
 
 ```sh
-/bilibili-cli {your command}
+/bilibili {your command}
 ```
 
 If your IDE doesn't support SlashCommands, add a prefix to your prompt:
 
 ```plaintext
-使用 bilibili-cli 技能，{your command}
+使用 bilibili 技能，{your command}
 ```
 
 This ensures the AI follows the documented patterns. Without the prefix, skill triggering may be inconsistent depending on how well your prompt matches the skill description keywords.
